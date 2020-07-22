@@ -7,10 +7,10 @@ import logging
 
 #filepaths
 
-db = "/home/kla/Documents/enote/enote_tech_test.db"
-account_file = "/home/kla/Documents/enote/BI_assignment_account.csv"
-person_file = "/home/kla/Documents/enote/BI_assignment_person.csv"
-transaction_file = "/home/kla/Documents/enote/BI_assignment_transaction.csv"
+db = "/home/kla/Documents/database.db"
+account_file = "/home/kla/Documents/table_assignment_account.csv"
+person_file = "/home/kla/Documents/table_person.csv"
+transaction_file = "/home/kla/Documents/enote/table_transaction.csv"
 
 def create_connection(db):
     """ function that creates a database and a connection to it"""
